@@ -1,5 +1,3 @@
-# List overlapping backup sessions 
-
 Import-Module -Name 'Veeam.Backup.PowerShell' -DisableNameChecking
 $BSessions = Get-VBRBackupSession
 
