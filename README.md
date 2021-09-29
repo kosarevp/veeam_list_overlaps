@@ -1,4 +1,4 @@
-List overlapping backup sessions in Veeam Backup & Replication
+Lists overlapping backup sessions in Veeam Backup & Replication
 
 Sample output:
 
