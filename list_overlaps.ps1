@@ -12,9 +12,9 @@ while ($BSessions) {
         }
     }
     if ($Overlaps) {
-        Write-Host ($CurSession.Name + ' (creation: ' + $CurSession.CreationTime + ', end: ' + $CurSession.EndTime + ') overlaps with following backup sessions:')
+        Write-Host ($CurSession.Name + ' (start: ' + $CurSession.CreationTime + ', end: ' + $CurSession.EndTime + ') overlaps with following backup sessions:')
         foreach ($item in $Overlaps) {
-            Write-Host '-->', $item.Name, 'creation:', $item.CreationTime, 'end:', $item.EndTime    
+            Write-Host '-->', $item.Name, 'start:', $item.CreationTime, 'end:', $item.EndTime    
         }
     }
 }
